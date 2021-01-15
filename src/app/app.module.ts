@@ -13,6 +13,7 @@ import { Router, RouterModule } from '@angular/router';
 import { DepartmentsComponent } from './departments/departments.component';
 import { FooterComponent } from './footer/footer.component';
 import { FrequentlyAskedQuestionComponent } from './frequently-asked-question/frequently-asked-question.component';
+import { GallaryComponent } from './gallary/gallary.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FrequentlyAskedQuestionComponent } from './frequently-asked-question/fr
     HomeComponent,
     DepartmentsComponent,
     FooterComponent,
-    FrequentlyAskedQuestionComponent
+    FrequentlyAskedQuestionComponent,
+    GallaryComponent
   ],
   imports: [
     BrowserModule,
